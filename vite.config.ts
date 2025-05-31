@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/", // تأكد من أن Vite يستخدم المسار الجذر
+  base: "/my-website/", // تأكد من أن Vite يستخدم المسار الجذر
   server: {
     host: "::",
     port: 8080,
